@@ -16,12 +16,14 @@ MindHaven/
 ## Quick Start
 
 1. **Prerequisites**
+
    - Node.js 18+ (LTS)
    - Flutter 3.x
    - MongoDB 6+
    - Firebase project setup
 
 2. **Environment Setup**
+
    ```bash
    # Copy environment templates
    cp backend/.env.example backend/.env
@@ -29,10 +31,11 @@ MindHaven/
    ```
 
 3. **Local Development**
+
    ```bash
    # Start all services with Docker
    docker-compose up -d
-   
+
    # Or run individually:
    # Backend: cd backend && npm install && npm run dev
    # Admin: cd admin && npm install && npm run dev
@@ -42,6 +45,7 @@ MindHaven/
 ## Features
 
 ### Student Features
+
 - 🔐 Secure authentication (Firebase Auth)
 - 😊 Daily mood tracking (1-10 scale + tags)
 - 📝 Private journaling with rich text
@@ -50,6 +54,7 @@ MindHaven/
 - 🚨 Crisis detection and local resources
 
 ### Admin Features
+
 - 👥 User management and analytics
 - 📈 Anonymized aggregate insights
 - 🚩 Flagged content review
@@ -74,6 +79,7 @@ MindHaven/
 ## Development
 
 Each component has its own README with detailed setup instructions:
+
 - [Backend Setup](backend/README.md)
 - [Mobile Setup](mobile/README.md)
 - [Admin Setup](admin/README.md)
@@ -81,3 +87,6 @@ Each component has its own README with detailed setup instructions:
 ## License
 
 MIT License - see LICENSE file for details.
+
+
+

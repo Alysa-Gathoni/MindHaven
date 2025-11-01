@@ -110,3 +110,5 @@ userSchema.statics.findOrCreateFromFirebase = async function(firebaseUser) {
 };
 
 module.exports = mongoose.model('User', userSchema);
+
+
